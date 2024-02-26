@@ -55,11 +55,13 @@ Provide the SSH user and hostname (or IP address) in the format `user@hostname` 
 
 If you've setup connection details, you can enter 'y' to use these settings with the SSH Connection Details above.
 
+```
 Host remoteServer
    HostName = 255.255.255.255
    User = proxy
    PreferredAuthentications publickey
    IdentityFile = /home/user/.ssh/id_remoteServer_ed25519_1-1-1970
+```
 
 ```
 [+] Is the hostname setup in an SSH config file? [y/n] (Press ENTER for n): 
